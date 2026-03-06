@@ -75,6 +75,12 @@ body {
   height: 130px;
 }
 
+.leaf-emblem {
+  width: min(100%, 210px);
+  height: auto;
+  filter: drop-shadow(0 6px 8px rgba(12, 38, 35, 0.2));
+}
+
 .icon-placeholder {
   width: 84px;
   height: 64px;
@@ -243,5 +249,9 @@ body {
 
   .quick-link {
     font-size: 1.2rem;
+  }
+
+  .leaf-emblem {
+    width: min(100%, 170px);
   }
 }
